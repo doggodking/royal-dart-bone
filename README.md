@@ -7,10 +7,12 @@
 # 🦴 Royal Dart Bone  
 _A sacred stash of Dart code snippets, blessed by Doggodking._
 
-Welcome to **Royal Dart Bone**,  
-a handpicked archive of Dart code — lazily sacred, royally structured.
+A sacred stash of Dart code snippets, blessed by Doggodking.
+Welcome to Royal Dart Bone —
+a carefully collected archive of reusable Dart code, lazily sacred and royally styled.
 
-> _Dart 코드 조각들을 왕의 눈으로 정리한 신성한 저장소입니다._
+> _Doggodking이 느긋하게 모은, 다시 꺼내 써도 좋은 Dart 코드 저장소입니다.
+가볍지만 허투루 다루지 않은 코드들입니다._
 
 ---
 

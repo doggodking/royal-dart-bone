@@ -6,8 +6,8 @@ import 'dart:io';
 /// =======================================
 
 /// Reads the contents of a text file at the given path.
-/// 주어진 경로의 텍스트 파일 내용을 읽어옵니다.
 /// Returns the content as a String or throws an error if the file is not found.
+/// 주어진 경로의 텍스트 파일 내용을 읽어옵니다.
 /// 파일을 찾을 수 없거나 읽는 데 실패하면 에러를 발생시킵니다.
 Future<String> readTextFile(String path) async {
   try {
@@ -23,8 +23,8 @@ Future<String> readTextFile(String path) async {
 }
 
 /// Writes the given content to a text file at the given path.
-/// 주어진 경로에 텍스트 파일을 작성합니다.
 /// If the file already exists, it will be overwritten.
+/// 주어진 경로에 텍스트 파일을 작성합니다.
 /// 파일이 이미 존재하면 덮어씁니다.
 Future<void> writeTextFile(String path, String content) async {
   try {

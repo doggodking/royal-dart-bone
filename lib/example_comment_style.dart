@@ -29,7 +29,7 @@ int exampleTest(int a, int b) {
 /// - [value]: 곱할 숫자
 /// - [factor]: 곱할 배수 (기본값: 2)
 /// - [label]: 선택적 라벨 설명
-String exampleTestAdd(int value, {int factor = 2, String? label}) {
+String exampleTestMore(int value, {int factor = 2, String? label}) {
   final result = value * factor;
   return label != null ? '$label: $result' : '$result';
 }

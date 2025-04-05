@@ -1,40 +1,65 @@
+<!-- Banner image placeholder -->
+<p align="center">
+  <!-- 🟡 Replace this URL when the banner is ready -->
+  <!-- <img src="https://your-banner-image-url.com" width="600" alt="Royal Dart Bone Banner"> -->
+</p>
 
-# 🍟 DartChips
+# 🦴 Royal Dart Bone  
+_A sacred stash of Dart code snippets, blessed by Doggodking._
 
-**작고 유용한 Dart 코드 조각들을 모은 저장소입니다.**  
-필요할 때 꺼내 쓸 수 있도록 주머니에 챱챱 모아두었어요.
+Welcome to **Royal Dart Bone**,  
+a handpicked archive of Dart code — lazily sacred, royally structured.
 
-> 📌 `lib/` 폴더 기준으로 기능별로 정리되어 있으며, 테스트 코드도 함께 포함되어 있습니다.  
-> 코드 작성 시 디렉토리 구조에 맞게 정리해 주세요.
-
----
-
-## 📁 디렉토리 구조 (예시)
-
-```
-lib/
-├── file/
-│   ├── save/
-│   └── read/
-├── extensions/
-├── constants/
-└── dart_chips.dart
-```
+> _Dart 코드 조각들을 왕의 눈으로 정리한 신성한 저장소입니다._
 
 ---
 
-## 🧪 테스트 실행 방법
+## 📜 Contents
 
-```bash
-dart test
-```
+- ✨ Clean, reusable Dart snippets
+- 🐾 Minimal boilerplate, maximum readability
+- 🧪 Constantly evolving with real-world use cases
+
+---
+
+## 🗂️ Snippet Categories
+
+<!-- You can expand or customize this section based on your actual repo structure -->
+- 📐 Layout & UI helpers
+- 📡 Network utils
+- 🔐 Secure storage
+- 🧼 String / Date formatting
+- 🎯 Extensions & Mixins
+- 🧪 Misc utilities
 
 ---
 
-## 👏 기여 방법
+## 👑 Who guards this vault?
 
-1. 기능별 폴더에 관련 함수 및 테스트 작성
-2. `README.md` 업데이트 (해당 폴더에도 문서 정리 가능)
-3. PR 생성 또는 공유
+This archive is curated by [**Doggodking**](https://github.com/doggodking),  
+a slightly lazy but deeply devoted iOS/Flutter developer who treats code with dignity.
+
+> _평소엔 나태하고 멍청하지만, 일 앞에선 신성하게 임하며 코드의 존엄을 지키는 캐릭터입니다._
 
 ---
+
+## 📦 How to use
+
+Each snippet lives in its own file/folder and is:
+
+- ✅ Focused on one idea
+- ✅ Easy to copy & paste
+- ✅ Written in clean, modern Dart style
+
+---
+
+## 🐾 Contributions?
+
+Pull requests are welcome — but must pass the royal vibe check.  
+Feel free to open issues or suggest new categories if you're feeling noble.
+
+---
+
+## 🏷️ License
+
+MIT — you are free to reuse, remix, or feed this bone to another dev 🦴

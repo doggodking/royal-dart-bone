@@ -1,39 +1,40 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages). 
+# 🍟 DartChips
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages). 
--->
+**작고 유용한 Dart 코드 조각들을 모은 저장소입니다.**  
+필요할 때 꺼내 쓸 수 있도록 주머니에 챱챱 모아두었어요.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+> 📌 `lib/` 폴더 기준으로 기능별로 정리되어 있으며, 테스트 코드도 함께 포함되어 있습니다.  
+> 코드 작성 시 디렉토리 구조에 맞게 정리해 주세요.
 
-## Features
+---
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## 📁 디렉토리 구조 (예시)
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+```
+lib/
+├── file/
+│   ├── save/
+│   └── read/
+├── extensions/
+├── constants/
+└── dart_chips.dart
 ```
 
-## Additional information
+---
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## 🧪 테스트 실행 방법
+
+```bash
+dart test
+```
+
+---
+
+## 👏 기여 방법
+
+1. 기능별 폴더에 관련 함수 및 테스트 작성
+2. `README.md` 업데이트 (해당 폴더에도 문서 정리 가능)
+3. PR 생성 또는 공유
+
+---

@@ -70,10 +70,10 @@ Each snippet lives in its own file/folder and is:
 
 ## 🐾 Contributions?
 
-Pull requests are welcome — but must pass the royal vibe check.  
+Pull requests are welcome — but must honor the graveyard’s sacred silence.  
 Feel free to open issues or suggest new categories if you're feeling noble.
 
-> PR은 언제든 환영입니다 — 단, 왕실 분위기를 해치지 않아야 합니다.  
+> PR은 언제든 환영입니다 — 단, 무덤의 신성한 침묵은 존중해주세요.  
 > 고귀한 아이디어가 있다면 이슈를 열거나 카테고리 제안을 남겨주세요.
 
 ---

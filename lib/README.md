@@ -1,19 +1,16 @@
 # 📝 Dart Comment Style Guide
 _royal-dart-bone 주석 스타일 가이드_
 
-This guide describes how to write consistent and clear comments in Dart code,  
-as demonstrated in `example_comment_style.dart`.
+This guide describes how to write consistent and clear comments in Dart code, as demonstrated in `example_comment_style.dart`.
 
-이 가이드는 Dart 코드에서 일관되고 명확한 주석을 작성하는 방법을 설명합니다.  
-모든 예시는 `example_comment_style.dart` 파일을 기준으로 작성되었습니다.
+이 가이드는 Dart 코드에서 일관되고 명확한 주석을 작성하는 방법을 설명합니다. 모든 예시는 `example_comment_style.dart` 파일을 기준으로 작성되었습니다.
 
 ---
 
 ## ✨ Guiding Principles
 _기본 원칙_
 
-- All public code should include English + Korean comments  
-  → 함수, 클래스, enum 설명 등은 모두 병기
+- All public code should include English + Korean comments
 - Comments should describe **what and why**, not just how
 - Keep it **short, consistent, and meaningful**
 
@@ -39,7 +36,8 @@ _파일 전체 설명_
 /// 아래는 주석 작성 예시입니다. (실제 사용하는 코드가 아님)
 ```
 
-> 🔍 파일 상단에는 제목 + 요약 + 사용 목적을 영어/한글로 병기하여 작성합니다.
+> 🔍 **Note**: Provide file-level summary and intent in both English and Korean.  
+> 🔍 **참고**: 파일 상단에는 제목, 요약, 목적을 영어/한글로 병기하여 작성합니다.
 
 ---
 
@@ -52,7 +50,8 @@ _함수 주석_
 int sum(int a, int b) => a + b;
 ```
 
-> 🔍 함수는 "무엇을 한다"는 설명을 중심으로 한 줄 또는 두 줄로 명확하게 작성합니다.
+> 🔍 **Note**: Keep function comments concise and focused on what it does.  
+> 🔍 **참고**: 함수 설명은 무엇을 하는지 명확하게 표현하며 간결하게 작성합니다.
 
 ---
 
@@ -73,7 +72,8 @@ enum UserRole {
 }
 ```
 
-> 🔍 enum 자체뿐 아니라 각 값에도 주석을 붙여 의도를 설명합니다.
+> 🔍 **Note**: Describe both the enum and each value clearly.  
+> 🔍 **참고**: enum 자체와 각 항목에 대한 설명을 모두 작성합니다.
 
 ---
 
@@ -95,16 +95,20 @@ _매개변수 설명_
 /// - [label]: 선택적 라벨 설명
 ```
 
-> 🔍 매개변수 설명은 `Parameters:` 블럭으로 나누어 정리하고,  
-> 영어/한글 설명을 동일한 순서로 병기합니다.
+> 🔍 **Note**: Use `Parameters:` to clearly list inputs, with consistent structure.  
+> 🔍 **참고**: 매개변수는 `Parameters:` 블럭으로 정리하고 구조를 통일합니다.
 
 ---
 
 ## ✅ Tip
 
-- 불필요한 코드 설명은 제거하세요 (e.g. `// add one to value` 같은 코드 반복 설명)
-- 모든 예시는 한글이 **첫 번째 언어가 아님**을 감안하고, 영어를 기준으로 구성하세요
-- 단순히 번역이 아닌 **읽는 사람을 위한 설명**이 되도록 작성하세요
+- Avoid redundant or obvious code comments
+- Use English-first, with Korean provided underneath
+- Focus on the purpose and intention behind code
+
+- 불필요하거나 자명한 주석은 제거합니다
+- 영어를 기준으로 작성하되, 한글을 아래에 함께 제공합니다
+- 단순 설명이 아닌 코드의 목적과 의도를 표현합니다
 
 ---
 

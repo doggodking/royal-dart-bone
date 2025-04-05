@@ -7,7 +7,6 @@ import 'file_name_extractor.dart';
 ///
 /// Categorizes files into usage types like image, spreadsheet, audio, etc.,
 /// based on their extensions.
-///
 /// 확장자 기반으로 이미지, 문서, 스프레드시트, 오디오 등 파일의 용도를 분류합니다.
 ///
 /// Useful for:

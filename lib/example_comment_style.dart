@@ -13,7 +13,7 @@
 
 /// This is a comment style example.
 /// 주석 작성법 예시입니다.
-int sum(int a, int b) {
+int test(int a, int b) {
   return a + b;
 }
 
@@ -29,7 +29,7 @@ int sum(int a, int b) {
 /// - [value]: 곱할 숫자
 /// - [factor]: 곱할 배수 (기본값: 2)
 /// - [label]: 선택적 라벨 설명
-String multiplyWithLabel(int value, {int factor = 2, String? label}) {
+String test2(int value, {int factor = 2, String? label}) {
   final result = value * factor;
   return label != null ? '$label: $result' : '$result';
 }

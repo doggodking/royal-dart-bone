@@ -1,4 +1,4 @@
-import 'file_extension.dart';
+import 'file_name_extractor.dart';
 
 /// =======================================
 /// File Usage Type Detector
@@ -36,34 +36,32 @@ enum FileUsageType {
   unknown,
 }
 
-class FileUsageDetector {
-  static const _extensions = <FileUsageType, Set<String>>{
-    FileUsageType.image: {'jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'heic'},
-    FileUsageType.vectorImage: {'svg', 'ai'},
-    FileUsageType.document: {'pdf', 'doc', 'docx', 'txt', 'rtf'},
-    FileUsageType.spreadsheet: {'xls', 'xlsx', 'csv'},
-    FileUsageType.presentation: {'ppt', 'pptx', 'key'},
-    FileUsageType.ebook: {'epub', 'mobi'},
-    FileUsageType.font: {'ttf', 'otf', 'woff', 'woff2'},
-    FileUsageType.audio: {'mp3', 'wav', 'aac', 'flac', 'ogg', 'm4a'},
-    FileUsageType.video: {'mp4', 'mov', 'avi', 'mkv', 'webm'},
-    FileUsageType.archive: {'zip', 'rar', '7z', 'tar', 'gz', 'bz2'},
-    FileUsageType.code: {'dart', 'js', 'ts', 'py', 'java', 'kt'},
-    FileUsageType.markup: {'html', 'xml'},
-    FileUsageType.data: {'json', 'yaml', 'yml'},
-  };
+const _extensions = <FileUsageType, Set<String>>{
+  FileUsageType.image: {'jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'heic'},
+  FileUsageType.vectorImage: {'svg', 'ai'},
+  FileUsageType.document: {'pdf', 'doc', 'docx', 'txt', 'rtf'},
+  FileUsageType.spreadsheet: {'xls', 'xlsx', 'csv'},
+  FileUsageType.presentation: {'ppt', 'pptx', 'key'},
+  FileUsageType.ebook: {'epub', 'mobi'},
+  FileUsageType.font: {'ttf', 'otf', 'woff', 'woff2'},
+  FileUsageType.audio: {'mp3', 'wav', 'aac', 'flac', 'ogg', 'm4a'},
+  FileUsageType.video: {'mp4', 'mov', 'avi', 'mkv', 'webm'},
+  FileUsageType.archive: {'zip', 'rar', '7z', 'tar', 'gz', 'bz2'},
+  FileUsageType.code: {'dart', 'js', 'ts', 'py', 'java', 'kt'},
+  FileUsageType.markup: {'html', 'xml'},
+  FileUsageType.data: {'json', 'yaml', 'yml'},
+};
 
-  /// Detects the usage type of the file from its path or filename.
-  /// Returns a [FileUsageType] such as image, document, etc.
-  /// 파일 경로 또는 이름을 통해 용도 타입을 반환합니다.
-  /// 이미지, 문서 등으로 분류된 [FileUsageType]을 반환합니다.
-  static FileUsageType detectUsageType(String path) {
-    final ext = getFileExtension(path);
-    for (final entry in _extensions.entries) {
-      if (entry.value.contains(ext)) {
-        return entry.key;
-      }
+/// Detects the usage type of the file from its path or filename.
+/// Returns a [FileUsageType] such as image, document, etc.
+/// 파일 경로 또는 이름을 통해 용도 타입을 반환합니다.
+/// 이미지, 문서 등으로 분류된 [FileUsageType]을 반환합니다.
+FileUsageType detectUsageType(String path) {
+  final ext = getFileExtension(path) ?? "";
+  for (final entry in _extensions.entries) {
+    if (entry.value.contains(ext)) {
+      return entry.key;
     }
-    return FileUsageType.unknown;
   }
+  return FileUsageType.unknown;
 }

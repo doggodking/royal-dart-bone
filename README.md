@@ -1,7 +1,7 @@
 <!-- Banner image placeholder -->
 <p align="center">
-  <!-- 🟡 Replace this URL when the banner is ready -->
-  <!-- <img src="https://your-banner-image-url.com" width="600" alt="Royal Dart Bone Banner"> -->
+
+  <img src="https://github.com/doggodking/royal-dart-bone/blob/main/bone.png?raw=true" width="600" alt="Royal Dart Bone Banner"> 
 </p>
 
 # 🦴 Royal Dart Bone  

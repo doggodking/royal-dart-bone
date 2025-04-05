@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/doggodking/royal-dart-bone/main/royal-dart-bone-banner.png" width="600" alt="Royal Dart Bone Banner">
+  <img src="https://raw.githubusercontent.com/doggodking/royal-dart-bone/refs/heads/main/bone.png" width="600" alt="Royal Dart Bone Banner">
 </p>
 
 # 🦴 Royal Dart Bone  

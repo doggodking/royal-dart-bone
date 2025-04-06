@@ -24,6 +24,10 @@ _모든 파일 관련 유틸리티는 이 폴더에 정리됩니다_
   Format byte sizes into human-readable strings  
   _바이트 크기를 사람이 읽기 쉬운 단위로 변환_
 
+- **[`file_copy_move.dart`](file_copy_move.dart)**  
+  Copy or move files to a new path  
+  _파일을 새 경로로 복사하거나 이동_
+
 ---
 
 ### 🧩 Path & Naming Utilities

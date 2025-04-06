@@ -1,9 +1,9 @@
+import 'dart:io';
+
 /// =======================================
 /// File Temp Creator
 /// 임시 파일/폴더 생성기
 /// =======================================
-
-import 'dart:io';
 
 /// Creates a temporary file in the system's temporary directory.
 /// 시스템의 임시 디렉토리에 임시 파일을 생성합니다.
